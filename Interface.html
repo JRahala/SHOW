@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- import neccessary stylesheets and scripts -->
+
+<head>
+
+    <link rel = 'stylesheet' href = 'Style.css'></link>
+    <script src = 'Script.js'  type="text/javascript"></script> 
+
+</head>
+
+
+<body>
+
+    <!-- navigation panel on the left hand side of the screen -->
+
+    <div id = 'nav_panel'>
+
+        <div id = 'user_panel'>
+            <span> PinkLion09 </span>
+        </div>
+
+
+        <!-- chat bot section -->
+
+        <div class = 'header_panel'> <div> Chat bots </div> </div>
+
+        <div class = 'option_panel'> <div> FAQ </div> </div>
+        <div class = 'option_panel'> <div> QnA Maker </div> </div>
+        <div class = 'option_panel'> <div> LUIS QnA </div> </div>
+        <div class = 'option_panel'> <div> Professional </div> </div>
+
+        
+        <!-- analytics section -->
+
+        <div class = 'header_panel'> <div> Miscellaneous </div> </div>
+
+        <div class = 'option_panel'> <div> Miscellaneous 1 </div> </div>
+        <div class = 'option_panel'> <div> Miscellaneous 2 </div> </div>
+        <div class = 'option_panel'> <div> Miscellaneous 3 </div> </div>
+
+
+    </div>
+
+
+    <div id = 'chat_box'>
+
+        <div id = 'chat_container'>
+
+            <!-- top part of chat box showing recipient's name, profile picture and settings option -->
+
+            <div id = 'recipient_box'>
+
+                <div id = 'recipient_status'></div>
+
+                <div id = 'recipient_name'> <span> Chatbot number #193745 </span> </div>
+                <div id = 'recipient_profile'> <span> Placeholder profile picture </span> </div>
+                
+                <div id = 'settings'> </div>
+
+            </div>
+
+
+            <!-- giant container holding all chats in the conversation -->
+
+            <div id = 'message_box'>
+
+                <div class = 'message_container'> <div class = 'message recipient_message'> Hello, how are you feeling today? </div> </div>
+                <!-- <div class = 'message user_message'></div> -->
+            
+            </div>
+
+
+            <!-- container at the bottom of the screen, holds the input for message to be sent -->
+            
+            <div id = 'sending_box'>
+
+                <input type = 'text' placeholder = 'type in a message... ' maxlength = '200' />
+                <div id = 'submit' onclick = 'submit_function()'> <span> Send </span> </div>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
